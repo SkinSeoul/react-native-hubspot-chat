@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion rootProject.ext.has("minSdkVersion") ? rootProject.ext.minSdkVersion : 26
         targetSdkVersion rootProject.ext.has("targetSdkVersion") ? rootProject.ext.targetSdkVersion : 34
-        versionCode 105
-        versionName "1.0.5"
+        versionCode 106
+        versionName "1.0.6"
     }
 
     sourceSets {
@@ -21,25 +21,15 @@ android {
     }
     kotlinOptions {
         jvmTarget = "17"
-        // Skip metadata version check to allow HubSpot SDK compiled with Kotlin 2.2.x
-        // to work with Kotlin 2.0.x compiler
-        freeCompilerArgs += ["-Xskip-metadata-version-check"]
-    }
-}
-
-// Force Kotlin stdlib version to match the project's Kotlin version
-configurations.all {
-    resolutionStrategy {
-        // Use the project's kotlin-stdlib version instead of the one from HubSpot SDK
-        force "org.jetbrains.kotlin:kotlin-stdlib:${rootProject.ext.has('kotlinVersion') ? rootProject.ext.kotlinVersion : '2.0.0'}"
-        force "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${rootProject.ext.has('kotlinVersion') ? rootProject.ext.kotlinVersion : '2.0.0'}"
     }
 }
 
 dependencies {
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
     implementation "com.facebook.react:react-native:+"
-    implementation 'com.hubspot.mobilechatsdk:mobile-chat-sdk-android:1.0.8'
+    // Use SDK 1.0.5 which uses OkHttp 4.x (Kotlin 2.0.x compatible)
+    // SDK 1.0.8 uses OkHttp 5.x which requires Kotlin 2.2.x
+    implementation 'com.hubspot.mobilechatsdk:mobile-chat-sdk-android:1.0.5'
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1"
 }
