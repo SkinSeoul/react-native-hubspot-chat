@@ -1,7 +1,12 @@
 {
     "name": "react-native-hubspot-chat",
-    "version": "1.0.2",
+    "version": "1.0.3-skinseoul",
     "author": "SaranshMalik",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/SkinSeoul/react-native-hubspot-chat"
+    },
+    "description": "React Native wrapper for HubSpot Mobile Chat SDK (iOS 1.0.7, Android 1.0.8)",
     "main": "index.js",
     "types": "index.js",
     "keywords": [

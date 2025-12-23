@@ -1140,6 +1140,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HubspotMobileSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "HubspotManager",
         "printedName": "HubspotManager",
@@ -4967,266 +4974,273 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/hoon2hooni\/Library\/Developer\/Xcode\/DerivedData\/HubspotSDK-acdlafouonukyugvkfmazmevlotn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 35,
       "value": "\"HubspotMobileSDK_HubspotMobileSDK\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/hoon2hooni\/Library\/Developer\/Xcode\/DerivedData\/HubspotSDK-acdlafouonukyugvkfmazmevlotn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "Array",
       "offset": 977,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/hoon2hooni\/Library\/Developer\/Xcode\/DerivedData\/HubspotSDK-acdlafouonukyugvkfmazmevlotn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1504,
       "length": 9,
       "value": "\".bundle\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/hoon2hooni\/Library\/Developer\/Xcode\/DerivedData\/HubspotSDK-acdlafouonukyugvkfmazmevlotn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1656,
       "length": 63,
       "value": "\"unable to find bundle named HubspotMobileSDK_HubspotMobileSDK\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/API\/APIModels.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/API\/APIModels.swift",
       "kind": "StringLiteral",
       "offset": 985,
       "length": 5,
       "value": "\"ios\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
       "kind": "StringLiteral",
       "offset": 432,
       "length": 6,
       "value": "\"prod\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
       "kind": "StringLiteral",
       "offset": 935,
       "length": 5,
       "value": "\"na1\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotConfig.swift",
       "kind": "StringLiteral",
       "offset": 4506,
       "length": 20,
       "value": "\"Hubspot-Info.plist\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "kind": "Array",
+      "offset": 1412,
+      "length": 29,
+      "value": "[\"hubspotutk\", \"messagesUtk\"]"
+    },
+    {
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
       "kind": "Dictionary",
-      "offset": 2759,
+      "offset": 3183,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4202,
+      "offset": 4626,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4379,
+      "offset": 4803,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 1138,
       "length": 20,
       "value": "\"camera_permissions\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 1357,
       "length": 27,
       "value": "\"photo_library_permissions\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 1695,
       "length": 26,
       "value": "\"notification_permissions\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 22,
       "value": "\"location_permissions\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 2350,
       "length": 12,
       "value": "\"push_token\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 2686,
       "length": 14,
       "value": "\"device_model\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 3163,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 3453,
       "length": 13,
       "value": "\"app_version\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 3693,
       "length": 20,
       "value": "\"device_orientation\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 3912,
       "length": 13,
       "value": "\"screen_size\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 4136,
       "length": 19,
       "value": "\"screen_resolution\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 4373,
       "length": 15,
       "value": "\"battery_level\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/HubspotUserProperties.swift",
       "kind": "StringLiteral",
       "offset": 4677,
       "length": 15,
       "value": "\"battery_state\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 12,
       "value": "\"hsPortalId\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
       "kind": "StringLiteral",
       "offset": 1255,
       "length": 14,
       "value": "\"hsChatflowId\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
       "kind": "StringLiteral",
       "offset": 1394,
       "length": 12,
       "value": "\"hsThreadId\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/PushNotificationChatData.swift",
       "kind": "StringLiteral",
       "offset": 1540,
       "length": 17,
       "value": "\"hsChatflowParam\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/FloatingActionButton.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/FloatingActionButton.swift",
       "kind": "BooleanLiteral",
       "offset": 1482,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
       "kind": "BooleanLiteral",
       "offset": 700,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
       "kind": "BooleanLiteral",
       "offset": 2483,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/Buttons\/TextChatButtonChatButton.swift",
       "kind": "BooleanLiteral",
       "offset": 2499,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
       "kind": "StringLiteral",
       "offset": 7871,
       "length": 24,
-      "value": "\"HubspotMobileSDK\/1.0.6\""
+      "value": "\"HubspotMobileSDK\/1.0.7\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
       "kind": "StringLiteral",
       "offset": 13560,
       "length": 11,
       "value": "\"nativeApp\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
       "kind": "StringLiteral",
       "offset": 13603,
       "length": 18,
       "value": "\"closeChatHandler\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
       "kind": "StringLiteral",
       "offset": 25106,
       "length": 21,
       "value": "\"Failed to load chat\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
+      "filePath": "\/tmp\/mobile-chat-sdk-ios\/Sources\/HubspotMobileSDK\/Views\/ChatView\/HubspotChatView.swift",
       "kind": "StringLiteral",
       "offset": 25142,
       "length": 15,
       "value": "\"network.slash\""
     },
     {
-      "filePath": "\/Users\/saranshmalik\/mmc\/mobile-chat-sdk-ios\/build\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/hoon2hooni\/Library\/Developer\/Xcode\/DerivedData\/HubspotSDK-acdlafouonukyugvkfmazmevlotn\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HubspotMobileSDK\/IntermediateBuildFilesPath\/HubspotMobileSDK.build\/Release-iphonesimulator\/HubspotMobileSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 743,
       "length": 17,
