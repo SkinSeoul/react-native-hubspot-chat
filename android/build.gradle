@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion rootProject.ext.has("minSdkVersion") ? rootProject.ext.minSdkVersion : 26
         targetSdkVersion rootProject.ext.has("targetSdkVersion") ? rootProject.ext.targetSdkVersion : 34
-        versionCode 103
-        versionName "1.0.3"
+        versionCode 104
+        versionName "1.0.4"
     }
 
     sourceSets {
@@ -24,6 +24,14 @@ android {
     }
 }
 
+// Force Kotlin stdlib version to match the project's Kotlin version
+configurations.all {
+    resolutionStrategy {
+        // Use the project's kotlin-stdlib version instead of the one from HubSpot SDK
+        force "org.jetbrains.kotlin:kotlin-stdlib:${rootProject.ext.has('kotlinVersion') ? rootProject.ext.kotlinVersion : '2.0.0'}"
+        force "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${rootProject.ext.has('kotlinVersion') ? rootProject.ext.kotlinVersion : '2.0.0'}"
+    }
+}
 
 dependencies {
     coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.3'
