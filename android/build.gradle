@@ -7,8 +7,8 @@ android {
     defaultConfig {
         minSdkVersion rootProject.ext.has("minSdkVersion") ? rootProject.ext.minSdkVersion : 26
         targetSdkVersion rootProject.ext.has("targetSdkVersion") ? rootProject.ext.targetSdkVersion : 34
-        versionCode 104
-        versionName "1.0.4"
+        versionCode 105
+        versionName "1.0.5"
     }
 
     sourceSets {
@@ -21,6 +21,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "17"
+        // Skip metadata version check to allow HubSpot SDK compiled with Kotlin 2.2.x
+        // to work with Kotlin 2.0.x compiler
+        freeCompilerArgs += ["-Xskip-metadata-version-check"]
     }
 }
 
